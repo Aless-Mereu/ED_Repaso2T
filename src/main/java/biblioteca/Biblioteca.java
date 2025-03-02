@@ -103,6 +103,7 @@ public class Biblioteca {
      * @param autor
      * @return Un libro que busca por autor
      */
+    @Deprecated
     public Libro encuentaLibroPorAutor(String autor) {
         for (Libro libro : libros) {
             if (libro.getAutor().equals(autor)) {
